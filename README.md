@@ -1,4 +1,4 @@
-# Como iniciar nosso projeto
+<h1 align="center"> Weather Hub </h1>
 
-1. Rode o comando `npm install` para podermos instalarmos todas as nossas dependencias.
-2. Rode o comando `npm run start` para podemor subirmos nossa aplicação
+Projeto criado para testar api de previsão do tempo.
+
