@@ -1,0 +1,89 @@
+
+
+/* Estilos para smartphones grandes */
+@media (min-width: 481px) and (max-width: 770px) {
+
+      /* search */
+      .search-container {
+        height: 31vh;
+      }
+    
+      /* error-container */ 
+      .error-container {
+        height: 31.7vh;
+      }
+      
+      /* forecast-container */   
+      .forecast-container {
+        height: 54vh;
+      }  
+}
+
+/* Estilos para smartphones pequenos */
+@media (max-width: 375px) {
+
+    .container {
+      width:50vh !important;
+    }
+    /* search */
+    .search-container {
+      height: 31vh;
+    }
+  
+    /* error-container */ 
+    .error-container {
+      height: 31.7vh;
+    }
+    
+    /* forecast-container */   
+    .forecast-container {
+      height: 54vh;
+    }  
+    
+  }
+
+  @media (max-width: 450px) {
+
+    .container {
+      width: 40vh !important;
+    }
+    /* search */
+    .search-container {
+      height: 21vh;
+    }
+  
+    /* error-container */ 
+    .error-container {
+      height: 31.7vh;
+    }
+    
+    /* forecast-container */   
+    .forecast-container {
+      height: 44vh;
+    }  
+    
+  }
+
+  @media (max-width: 300px) {
+
+    .container {
+      width: 40vh !important;
+    }
+    /* search */
+    .search-container {
+      height: 20vh;
+    }
+  
+    /* error-container */ 
+    .error-container {
+      height: 31.7vh;
+    }
+    
+    /* forecast-container */   
+    .forecast-container {
+      height: 54vh;
+    }  
+    .title{
+        padding-top: 0%;
+    }
+  }
