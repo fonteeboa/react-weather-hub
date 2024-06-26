@@ -11,7 +11,7 @@ function HomePage() {
   const [city, setCity] = useState("");
   const [weatherForecast, setWeatherForecast] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [hasError, setHasError] = useState(true);
+  const [hasError, setHasError] = useState(false);
 
   const handleSearch = () => {
     setIsLoading(true);
