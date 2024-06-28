@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Layout } from "antd";
 import Search from "../components/search";
 import Loading from "../components/loading";
-import Error from "../components/error";
+import ErrorContainer from "../components/error";
 import Forecast from "../components/forecast";
 
 const { Content } = Layout;
@@ -53,7 +53,7 @@ function HomePage() {
             <Search city={city} setCity={setCity} handleSearch={handleSearch} />
           )}
           {isLoading && <Loading />}
-          {!isLoading && hasError && <Error backToHome={backToHome} />}
+          {!isLoading && hasError && <ErrorContainer backToHome={backToHome} />}
           {!isLoading && weatherForecast && (
             <Forecast weatherForecast={weatherForecast} backToHome={backToHome} className="animate__animated animate__fadeIn"/>
           )}

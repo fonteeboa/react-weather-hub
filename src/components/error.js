@@ -3,7 +3,7 @@ import { Button, Typography } from "antd";
 
 const { Text } = Typography;
 
-const Error = ({ backToHome }) => (
+const ErrorContainer = ({ backToHome }) => (
   <div className="error-container">
     <div className="padding-div">
       <div>
@@ -20,4 +20,4 @@ const Error = ({ backToHome }) => (
   </div>
 );
 
-export default Error;
+export default ErrorContainer;
